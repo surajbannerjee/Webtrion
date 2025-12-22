@@ -32093,3 +32093,7 @@ padding:0;
   color: var(--primary);
   border-radius: 8px;
 }
+div#about {
+  position: relative;
+  z-index: 1;
+}
