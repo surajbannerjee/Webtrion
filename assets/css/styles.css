@@ -32062,3 +32062,34 @@ ul.list-check li .icon {
 .rg-24 {
   row-gap: 24px !important;
 }
+/* pricing section  */
+.pricing.section-pricing .wg-modern{
+padding:0;
+}
+.pricing.section-pricing .modern-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: self-start;
+}
+.Pricing--custom {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.s-desc.newDesc {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--dark-90);
+    padding: 16px;
+    gap: 20px;
+    border-radius: 16px;
+}
+.pricing.section-pricing .tag {
+  padding: 4px 8px;
+  background-color: var(--white);
+  color: var(--primary);
+  border-radius: 8px;
+}

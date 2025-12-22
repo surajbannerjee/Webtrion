@@ -1,0 +1,176 @@
+/* -- Variable -- */
+:root {
+    --primary: #13b118;
+    --primary-100: #c7fcc9;
+    --primary-200: #91f595;
+    --primary-300: #63EB68;
+    --primary-300-30: rgba(99, 235, 104, 0.3);
+    --primary-400: #3FDD44;
+    --primary-600: #13b118;
+    --primary-700: #08910c;
+
+    --gray-50: #6B7280;
+    --gray-200: #C9CFCF;
+    --gray-600: #4b5563;
+
+    --neu-200: #f2f2f2;
+    --neu-300: #E6E6E6;
+    --neu-400: #BFBFBF;
+    --neu-500: #a0a0a0;
+    --neu-600: #575757;
+    --neu-700: #404040;
+    --neu-800: #303636;
+    --neu-900: #000000;
+    --neu-950: #0A0A0A;
+
+    --d10-bg-1: #0000000d;
+    --d10-bg-2: #eaffeb;
+    --d10-bg-3: #EBEBEB;
+    --d10-bg-4: #033005;
+    --d10-bg-5: #08D810;
+    --d10-bg-6: #08D8101A;
+    ;
+
+    --d10-color-text: rgba(0, 0, 0, 0.7);
+    --d10-color-text-2: rgba(0, 0, 0, 0.6);
+    --d10-color-text-3: #3A3A5A;
+    --d10-color-text-big: #D3D3D380;
+
+    --d10-color-icon: #00A406;
+
+    --d10-yelow: #FF9000;
+
+    --d10-line: #3A3A5A4D;
+
+    --d10-color-text: #767676;
+
+
+
+}
+
+/* -- Reset -- */
+body {
+    font-family: "Archivo", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--neu-600);
+}
+
+/* -- Typography -- */
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5 {
+    font-family: "Archivo", sans-serif;
+}
+
+h1,
+.h1 {
+    font-size: clamp(36px, 5vw, 64px);
+    line-height: clamp(40px, 5.5vw, 68px);
+}
+
+h2,
+.h2 {
+    font-size: clamp(34px, 4.8vw, 60px);
+    line-height: clamp(36px, 5vw, 64px);
+}
+
+h3,
+.h3 {
+    font-size: clamp(28px, 4vw, 48px);
+    line-height: clamp(34px, 4.5vw, 56px);
+}
+
+h4,
+.h4 {
+    font-size: clamp(24px, 3.5vw, 40px);
+    line-height: clamp(28px, 4vw, 48px);
+}
+
+h5,
+.h5 {
+    font-size: clamp(20px, 3vw, 36px);
+    line-height: clamp(24px, 3.5vw, 40px);
+}
+
+h6,
+.h6 {
+    font-size: clamp(18px, 2.5vw, 32px);
+    line-height: clamp(20px, 3vw, 36px);
+}
+
+.text-sub-head {
+    font-size: clamp(20px, 2.2vw, 28px);
+    line-height: clamp(24px, 2.3vw, 36px);
+}
+
+.text-body-1 {
+    font-size: clamp(18px, 2vw, 24px);
+    line-height: clamp(22px, 2.5vw, 32px);
+}
+
+.text-body-2 {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.text-body-3 {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.text-body-4 {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.font-archivo {
+    font-family: "Archivo", sans-serif !important;
+}
+
+.gap-6{
+    gap: 6px;
+}
+
+.rg-40 {
+    row-gap: 40px;
+}
+
+.rg-48 {
+    row-gap: 48px;
+}
+
+.color-primary-600 {
+    color: var(--primary-600);
+}
+
+.color-neu-600 {
+    color: var(--neu-600);
+}
+
+.color-neu-900 {
+    color: var(--neu-900);
+}
+
+.fs-24 {
+    font-size: 24px !important;
+}
+
+.fs-36 {
+    font-size: 36px !important;
+}
+
+.lh-30 {
+    line-height: 30px;
+}
+
+.lh-40 {
+    line-height: 40px;
+}

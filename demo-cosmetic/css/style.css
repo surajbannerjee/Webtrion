@@ -1,0 +1,31 @@
+/* -- Variable -- */
+:root {
+    --primary: #A27B68;
+    --secondary: #FF0000;
+}
+
+/* -- Typography -- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--black);
+}
+
+h1,
+.h1 {
+    letter-spacing: -0.06em;
+}
+
+h3,
+.h3 {
+    letter-spacing: -0.03em;
+}
+
+.text-display-1 {
+    font-size: clamp(48px, 10vw, 128px);
+    line-height: clamp(48px, 10vw, 128px);
+    letter-spacing: -0.06em;
+}

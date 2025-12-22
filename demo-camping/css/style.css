@@ -1,0 +1,37 @@
+/* -- Variable -- */
+:root {
+    --primary: #EC542D;
+}
+
+/* -- Typography -- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Barlow", sans-serif;
+}
+
+h1,
+.h1 {
+    font-size: clamp(48px, 7.5vw, 96px);
+    line-height: clamp(48px, 7.5vw, 96px);
+}
+
+h4,
+.h4 {
+    font-size: clamp(24px, 2.3vw, 36px);
+    line-height: clamp(32px, 3vw, 48px);
+}
+
+h5,
+.h5 {
+    font-size: clamp(22px, 2vw, 32px);
+    line-height: clamp(28px, 3vw, 44px);
+}
+
+.text-display-1 {
+    font-size: clamp(48px, 10vw, 128px);
+    line-height: clamp(52px, 10.5vw, 136px);
+}

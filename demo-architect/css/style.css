@@ -1,0 +1,288 @@
+/* -- Variable -- */
+:root {
+    --primary: #DDD3C2;
+    --secondary: #634305;
+    --bg-light: #EFEAE0;
+    --black-10: #0000001A;
+    --black-12: #0000001F;
+    --black-20: #00000033;
+    --black-40: #00000066;
+    --black-60: #00000099;
+    --black-80: #000000CC;
+    --white-60: #FFFFFF99;
+    --white-70: #FFFFFFB2;
+    --white-80: #FFFFFFCC;
+    --white-90: #FFFFFFCC;
+    --gray-10: #F3F4F6;
+    --gray-20: #E5E7EB;
+    --gray-30: #D1D5DB;
+    --gray-40: #9CA3AF;
+    --gray-50: #6B7280;
+    --gray-60: #4B5563;
+    --gray-70: #374151;
+    --gray-80: #1F2937;
+    --gray-90: #111827;
+    --text-color-1: #8D8686;
+    --dark: #0D0D0D;
+    --dark-50: #0D0D0D80;
+}
+
+/* -- Reset -- */
+body {
+    font-family: "DM Sans", sans-serif;
+    color: var(--black-60);
+    font-size: 16px;
+    line-height: 22px;
+}
+
+#wrapper {
+    background-color: var(--bg-light);
+    overscroll-behavior: none;
+    scroll-behavior: smooth;
+}
+
+/* -- Typography -- */
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+}
+
+h1,
+.h1 {
+    font-size: clamp(72px, 8vw, 140px);
+    line-height: clamp(72px, 8vw, 140px);
+}
+
+h2,
+.h2 {
+    font-size: clamp(48px, 6vw, 100px);
+    line-height: clamp(56px, 6vw, 100px);
+}
+
+h3,
+.h3 {
+    font-size: clamp(40px, 5vw, 74px);
+    line-height: clamp(46px, 5.5vw, 82px);
+}
+
+h4,
+.h4 {
+    font-size: clamp(28px, 3.5vw, 40px);
+    line-height: clamp(32px, 3.8vw, 42px);
+}
+
+h5,
+.h5 {
+    font-size: clamp(20px, 3vw, 24px);
+    line-height: clamp(26px, 3.5vw, 30px);
+}
+
+.text-display-1 {
+    font-size: 200px;
+    line-height: 170px;
+}
+
+.bellefair-font {
+    font-family: "Bellefair", serif;
+}
+
+.tangerine-font {
+    font-family: "Tangerine", serif;
+}
+
+.text-sub-head {
+    font-size: clamp(18px, 2vw, 20px);
+    line-height: 22px;
+}
+
+.text-sub-head-medium {
+    font-size: clamp(18px, 2vw, 20px);
+    line-height: 26px;
+    font-weight: 500;
+}
+
+.text-body-1 {
+    font-size: 24px;
+    line-height: 22px;
+}
+
+.text-body-2 {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+
+.text-caption {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.text-dark-color {
+    color: var(--dark);
+}
+
+.text-dark-color-50 {
+    color: var(--dark-50);
+}
+
+.text-color-1 {
+    color: var(--text-color-1);
+}
+
+.text-white-60 {
+    color: var(--white-60);
+}
+
+.text-white-70 {
+    color: var(--white-70);
+}
+
+.text-white-80 {
+    color: var(--white-80);
+}
+
+.text-white-90 {
+    color: var(--white-90);
+}
+
+
+.text-black-40 {
+    color: var(--black-40);
+}
+
+.text-black-60 {
+    color: var(--black-60);
+}
+
+.text-black-80 {
+    color: var(--black-80);
+}
+
+.bg-dark {
+    background-color: var(--dark) !important;
+}
+
+.bg-light {
+    background-color: var(--bg-light) !important;
+}
+
+
+.container {
+    padding-right: 6px;
+    padding-left: 6px;
+    width: 1308px;
+
+}
+
+.container.w-1079 {
+    width: 1091px;
+}
+
+.container .row {
+    margin-left: -6px !important;
+    margin-right: -6px !important;
+
+}
+
+.container .row>* {
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+}
+
+.main-container {
+    z-index: 2;
+}
+
+.tf-btn {
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    font-weight: 500;
+    letter-spacing: -0.06rem;
+}
+
+.tf-btn i {
+    font-size: 18px;
+}
+
+.tf-btn.btn-bg-dark {
+    background-color: var(--black);
+}
+
+.tf-btn.btn-bg-primary {
+    color: var(--black);
+}
+
+.odometer.odometer-auto-theme,
+.odometer.odometer-theme-default {
+    font-family: "Bellefair",
+        serif;
+}
+
+
+@media (max-width:1439px) {
+    .text-display-1 {
+        font-size: 165px;
+        line-height: 170px;
+    }
+
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .container .row {
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+    }
+
+    .container .row>* {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+@media (max-width:1200px) {
+    .text-display-1 {
+        font-size: 138px;
+        line-height: 146px;
+    }
+
+
+}
+
+@media (max-width:991px) {
+    .text-display-1 {
+        font-size: 105px;
+        line-height: 113px;
+    }
+
+
+}
+
+@media (max-width:767px) {
+    .text-display-1 {
+        font-size: 76px;
+        line-height: 84px;
+    }
+}
+
+@media (max-width:575px) {
+    .text-display-1 {
+        font-size: 50px;
+        line-height: 84px;
+    }
+}
