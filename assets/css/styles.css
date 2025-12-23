@@ -31944,6 +31944,9 @@ ul.list-check li .icon {
     gap: 0;
     padding: 28px 12px;
   }
+  .logo-site {
+    width: 120px;
+}
   .d10-box-mission .box-content {
     padding-top: 40px;
     padding-bottom: 0;
@@ -32010,6 +32013,7 @@ ul.list-check li .icon {
   .mb-md-82 {
     margin-bottom: 82px !important;
   }
+  
 }
 
 .mb-lg-84 {
