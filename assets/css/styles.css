@@ -26064,6 +26064,11 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   height: 100%;
   object-fit: cover;
 }
+.tf-landing-footer .bg-img video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 @media (min-width: 1200px) {
   .tf-landing-footer .content {
     padding: 154px 15px;
