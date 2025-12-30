@@ -32106,3 +32106,11 @@ div#about {
   position: relative;
   z-index: 1;
 }
+.feature-image {
+  max-height: 550px;
+  margin-top: 30px;
+}
+.feature-image img {
+  width: 100%;
+  height: 100%;
+}
